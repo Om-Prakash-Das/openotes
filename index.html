@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openotes - Ultimate Notes Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <meta name="description" content="An advanced, interactive hub for accessing class notes.">
+    <meta property="og:title" content="Openotes">
+    <meta property="og:description" content="Find your notes easily with Openotes!">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Openotes</h1>
+        <p>Find your notes effortlessly!</p>
+        <input type="text" id="searchBox" placeholder="Search for notes..." onkeyup="filterNotes()">
+        <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+    </header>
+
+    <main>
+        <section class="notes-list">
+            <div class="note" data-subject="Mathematics">
+                <h2>Mathematics</h2>
+                <p>Advanced concepts and formulas.</p>
+                <a href="https://archive.org/download/notice_202503/Notice.pdf" target="_blank">Access Notes</a>
+                <div class="qr-code"></div>
+            </div>
+            <div class="note" data-subject="Chemistry">
+                <h2>Chemistry</h2>
+                <p>Periodic table, bonding, and reactions.</p>
+                <a href="YOUR_LINK_HERE" target="_blank">Access Notes</a>
+                <div class="qr-code"></div>
+            </div>
+            <div class="note" data-subject="Physics">
+                <h2>Physics</h2>
+                <p>Fundamental theories and principles.</p>
+                <a href="YOUR_LINK_HERE" target="_blank">Access Notes</a>
+                <div class="qr-code
