@@ -7,7 +7,7 @@ This website serves as a **centralized hub** for educational resources, making i
 
 ## 🔗 Visit the Website
 Click the link below to explore **Openotes**:
-👉 [Openotes on GitHub Pages](https://om-prakash-das.github.io/opdas/)
+👉 [Openotes on GitHub Pages]((https://om-prakash-das.github.io/openotes/))
 
 ---
 
